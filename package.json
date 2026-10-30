@@ -1,0 +1,37 @@
+{
+  "name": "openbot-ctxclip",
+  "version": "0.1.0",
+  "description": "Condense noisy command and tool output before it reaches the model. Deterministic, harness-agnostic, every omission counted with a path back to the full log.",
+  "type": "module",
+  "bin": {
+    "ctxclip": "./src/cli.mjs"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": "./src/condense.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node demo/demo.mjs",
+    "demo": "node demo/demo.mjs",
+    "test": "node --test"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "cli",
+    "context-engineering",
+    "context-window",
+    "log-compression",
+    "developer-tools",
+    "testing"
+  ],
+  "license": "MIT",
+  "author": "Xiao-KL"
+}

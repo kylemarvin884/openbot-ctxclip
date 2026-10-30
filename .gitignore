@@ -1,0 +1,4 @@
+node_modules/
+.ctxclip/
+demo/sample.log
+*.log
